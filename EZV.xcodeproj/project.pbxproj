@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		FA9EBEBD29B1C76B00DFA663 /* EZVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEBC29B1C76B00DFA663 /* EZVApp.swift */; };
-		FA9EBEBF29B1C76B00DFA663 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEBE29B1C76B00DFA663 /* ContentView.swift */; };
+		FA9EBEBF29B1C76B00DFA663 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEBE29B1C76B00DFA663 /* SplashView.swift */; };
 		FA9EBEC129B1C76C00DFA663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9EBEC029B1C76C00DFA663 /* Assets.xcassets */; };
 		FA9EBEC429B1C76C00DFA663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9EBEC329B1C76C00DFA663 /* Preview Assets.xcassets */; };
+		FA9EBECF29B1CA7C00DFA663 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBECE29B1CA7C00DFA663 /* ProductView.swift */; };
+		FA9EBED329B1CB3000DFA663 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBED229B1CB3000DFA663 /* ProductDetailView.swift */; };
+		FA9EBED529B1CB6300DFA663 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBED429B1CB6300DFA663 /* Product.swift */; };
+		FA9EBEDA29B1CD5300DFA663 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FA9EBED929B1CD5300DFA663 /* .swiftlint.yml */; };
+		FA9EBEDC29B1D16F00DFA663 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEDB29B1D16F00DFA663 /* ProductViewModel.swift */; };
+		FA9EBEDF29B1D20400DFA663 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEDE29B1D20400DFA663 /* Constants.swift */; };
+		FA9EBEE229B1D2CC00DFA663 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA9EBEE129B1D2CC00DFA663 /* SDWebImageSwiftUI */; };
+		FA9EBEE529B1D2F700DFA663 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = FA9EBEE429B1D2F700DFA663 /* SwiftyJSON */; };
+		FA9EBEE729B1D9C200DFA663 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEE629B1D9C200DFA663 /* ProductDetailViewModel.swift */; };
+		FA9EBEE929B1DC5100DFA663 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEE829B1DC5100DFA663 /* ProfileView.swift */; };
+		FA9EBEEB29B1DD1600DFA663 /* ProductProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEEA29B1DD1600DFA663 /* ProductProvider.swift */; };
+		FA9EBEF129B1FE0200DFA663 /* Product.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA9EBEEF29B1FE0200DFA663 /* Product.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA9EBEB929B1C76B00DFA663 /* EZV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9EBEBC29B1C76B00DFA663 /* EZVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZVApp.swift; sourceTree = "<group>"; };
-		FA9EBEBE29B1C76B00DFA663 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA9EBEBE29B1C76B00DFA663 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		FA9EBEC029B1C76C00DFA663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9EBEC329B1C76C00DFA663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA9EBECE29B1CA7C00DFA663 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		FA9EBED229B1CB3000DFA663 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		FA9EBED429B1CB6300DFA663 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FA9EBED929B1CD5300DFA663 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		FA9EBEDB29B1D16F00DFA663 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		FA9EBEDE29B1D20400DFA663 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA9EBEE629B1D9C200DFA663 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		FA9EBEE829B1DC5100DFA663 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FA9EBEEA29B1DD1600DFA663 /* ProductProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductProvider.swift; sourceTree = "<group>"; };
+		FA9EBEF029B1FE0200DFA663 /* Product.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Product.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9EBEE529B1D2F700DFA663 /* SwiftyJSON in Frameworks */,
+				FA9EBEE229B1D2CC00DFA663 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +59,7 @@
 		FA9EBEB029B1C76B00DFA663 = {
 			isa = PBXGroup;
 			children = (
+				FA9EBED929B1CD5300DFA663 /* .swiftlint.yml */,
 				FA9EBEBB29B1C76B00DFA663 /* EZV */,
 				FA9EBEBA29B1C76B00DFA663 /* Products */,
 			);
@@ -51,8 +76,11 @@
 		FA9EBEBB29B1C76B00DFA663 /* EZV */ = {
 			isa = PBXGroup;
 			children = (
-				FA9EBEBC29B1C76B00DFA663 /* EZVApp.swift */,
-				FA9EBEBE29B1C76B00DFA663 /* ContentView.swift */,
+				FA9EBEDD29B1D1E500DFA663 /* Util */,
+				FA9EBECA29B1C85E00DFA663 /* App */,
+				FA9EBECD29B1C87E00DFA663 /* Model */,
+				FA9EBECC29B1C87400DFA663 /* ViewModel */,
+				FA9EBECB29B1C86600DFA663 /* View */,
 				FA9EBEC029B1C76C00DFA663 /* Assets.xcassets */,
 				FA9EBEC229B1C76C00DFA663 /* Preview Content */,
 			);
@@ -67,6 +95,52 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FA9EBECA29B1C85E00DFA663 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EBEBC29B1C76B00DFA663 /* EZVApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA9EBECB29B1C86600DFA663 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EBEBE29B1C76B00DFA663 /* SplashView.swift */,
+				FA9EBECE29B1CA7C00DFA663 /* ProductView.swift */,
+				FA9EBED229B1CB3000DFA663 /* ProductDetailView.swift */,
+				FA9EBEE829B1DC5100DFA663 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA9EBECC29B1C87400DFA663 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EBEDB29B1D16F00DFA663 /* ProductViewModel.swift */,
+				FA9EBEE629B1D9C200DFA663 /* ProductDetailViewModel.swift */,
+				FA9EBEEF29B1FE0200DFA663 /* Product.xcdatamodeld */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA9EBECD29B1C87E00DFA663 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EBED429B1CB6300DFA663 /* Product.swift */,
+				FA9EBEEA29B1DD1600DFA663 /* ProductProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA9EBEDD29B1D1E500DFA663 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EBEDE29B1D20400DFA663 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +151,17 @@
 				FA9EBEB529B1C76B00DFA663 /* Sources */,
 				FA9EBEB629B1C76B00DFA663 /* Frameworks */,
 				FA9EBEB729B1C76B00DFA663 /* Resources */,
+				FA9EBED629B1CC7D00DFA663 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = EZV;
+			packageProductDependencies = (
+				FA9EBEE129B1D2CC00DFA663 /* SDWebImageSwiftUI */,
+				FA9EBEE429B1D2F700DFA663 /* SwiftyJSON */,
+			);
 			productName = EZV;
 			productReference = FA9EBEB929B1C76B00DFA663 /* EZV.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,10 @@
 				Base,
 			);
 			mainGroup = FA9EBEB029B1C76B00DFA663;
+			packageReferences = (
+				FA9EBEE029B1D2CC00DFA663 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				FA9EBEE329B1D2F700DFA663 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = FA9EBEBA29B1C76B00DFA663 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9EBEDA29B1CD5300DFA663 /* .swiftlint.yml in Resources */,
 				FA9EBEC429B1C76C00DFA663 /* Preview Assets.xcassets in Resources */,
 				FA9EBEC129B1C76C00DFA663 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +216,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FA9EBED629B1CC7D00DFA663 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then \n  swiftlint \nelse \n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\" \nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA9EBEB529B1C76B00DFA663 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9EBEBF29B1C76B00DFA663 /* ContentView.swift in Sources */,
+				FA9EBEEB29B1DD1600DFA663 /* ProductProvider.swift in Sources */,
+				FA9EBEDC29B1D16F00DFA663 /* ProductViewModel.swift in Sources */,
+				FA9EBEBF29B1C76B00DFA663 /* SplashView.swift in Sources */,
+				FA9EBEF129B1FE0200DFA663 /* Product.xcdatamodeld in Sources */,
+				FA9EBEE929B1DC5100DFA663 /* ProfileView.swift in Sources */,
+				FA9EBED329B1CB3000DFA663 /* ProductDetailView.swift in Sources */,
+				FA9EBEDF29B1D20400DFA663 /* Constants.swift in Sources */,
+				FA9EBECF29B1CA7C00DFA663 /* ProductView.swift in Sources */,
 				FA9EBEBD29B1C76B00DFA663 /* EZVApp.swift in Sources */,
+				FA9EBED529B1CB6300DFA663 /* Product.swift in Sources */,
+				FA9EBEE729B1D9C200DFA663 /* ProductDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -339,6 +452,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA9EBEE029B1D2CC00DFA663 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FA9EBEE329B1D2F700DFA663 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA9EBEE129B1D2CC00DFA663 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA9EBEE029B1D2CC00DFA663 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		FA9EBEE429B1D2F700DFA663 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA9EBEE329B1D2F700DFA663 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FA9EBEEF29B1FE0200DFA663 /* Product.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA9EBEF029B1FE0200DFA663 /* Product.xcdatamodel */,
+			);
+			currentVersion = FA9EBEF029B1FE0200DFA663 /* Product.xcdatamodel */;
+			path = Product.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA9EBEB129B1C76B00DFA663 /* Project object */;
 }
